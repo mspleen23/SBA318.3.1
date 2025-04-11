@@ -3,8 +3,10 @@ const app= express ();
 const PORT =3000; 
 
 const bodyParser = require("body-parser");
+
 const playlist= require("./Routes/playlistRoute"); 
-const songs= require("./Routes/songsRoute")
+const songs= require("./Routes/songsRoute");
+const ratings= require("./Routes/ratingsRoute");
 
 const error = require("./utilities/error");
 
@@ -16,6 +18,7 @@ app.use(bodyParser.json({ extended: true }));
 ////Here are the Routes/////
 app.use("/api/playlist", playlist);
 app.use("/api/songs", songs);
+app.use("/api/ratings", ratings);
 
 
 //////Home Routes////

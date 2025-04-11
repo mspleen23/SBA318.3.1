@@ -1,40 +1,29 @@
 const playlist = [
 { 
     id: 1, 
-    name: 'Summa Time Pool Party', 
-    genre: '90s Hip Hop & Rnb'
+    name: "The It Girls of the 90s", 
+    genre: '90s Rnb'
 },
 
 {
     id:2,
-    name: 'Me n Bae',
+    name: 'RnB Girlies',
     genre: 'Rnb Love Songs Mix'
     
 },
 
 {
-    id:3, 
-    name:'Reggae Vibes', 
-    genre: 'Old School Reggae'
-},
-
-{
-    id:4,
-    name: "Roots and Reggae",
+    id:3,
+    name: "Bob Marley Favs",
     genre: "Roots Reggae"
 },
 
 {
-    id:5,
-    name: "Pass the Aux",
-    genre: "Modern Hip Hop & RnB"      
+    id:4,
+    name: "Song of the Day",
+    genre: "Various"      
 },
 
-{
-    id:6,
-    name: "Pop Music",
-    genre: "Pop Music Mix"
-}
 
 ]
 
