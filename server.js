@@ -30,7 +30,15 @@ app.get('/home', (req, res) =>{
     res.send('Welcome to the Music Room')
 })
 
+/////404 Middleware////
+app.use((req, res, next) => {
+    next(error(404, "Resource Not Found"));
+  });
 
+app.use((err, req, res, next) => {
+    res.status(err.status || 500);
+    res.json({ error: err.message });
+  });
 
 
 
