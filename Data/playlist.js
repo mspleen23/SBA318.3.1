@@ -26,7 +26,7 @@ const playlist = [
     id:4,
     playlistTitle: "Song of the Day",
     genre: "Various", 
-    songId:[10]    
+    songId:3    
 },
 
 
