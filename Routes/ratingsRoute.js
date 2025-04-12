@@ -3,9 +3,9 @@ const router= express.Router();
 
 const playlistRatings = require("../Data/ratings");
 
-router.get("/", (req, res)=>{
-    res.json(playlistRatings)
-});
+// router.get("/", (req, res)=>{
+//     res.json(playlistRatings)
+// });
 
 router.get("/", (req, res) => {
     const { rating } = req.query;
