@@ -1,6 +1,4 @@
-const songs = require("./songs");
-
-const playlist = [
+const playlists = [
 { 
     id: 1, 
     playlistTitle: "The It Girls of the 90s", 
@@ -32,6 +30,6 @@ const playlist = [
 
 ]
 
-module.exports = playlist; 
+module.exports = playlists; 
 
 
