@@ -48,7 +48,16 @@ router.route ('/:id')
     else res.status(404).json({error:"Playlist Not Found"});
 })
 
-
+.delete((req, res) => {
+    const playlist= playlists.find((playlist, idx) => {
+        if (playlist.id === Number (req.params.id)){
+            playlists.splice(idx, 1);
+            return true
+        }   
+     });
+     if (playlist) res.json(playlist);
+     else res.status(404).json({ error:"Playlist Not Found"});
+});
 
 
 
