@@ -10,7 +10,7 @@ const playlistRatings= [
         id: 2,
         userId:2 ,
         playlistId:1 ,
-        rating: 4,
+        rating: 3,
     },
 
      {
@@ -24,7 +24,7 @@ const playlistRatings= [
         id:4,
         userId:1 ,
         playlistId: 2,
-        rating:4,
+        rating: 4,
     },
 
     {
@@ -38,7 +38,8 @@ const playlistRatings= [
         id:6 ,
         userId:3,
         playlistId:3,
-        rating:5,
+        rating: 3,
+       
     } 
 ]
 
