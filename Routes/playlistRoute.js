@@ -21,8 +21,9 @@ router.route('/')
     }
 
     playlists.push(newPlaylist);
-    res.json(playlists[playlists.length -1]);
-    } else res.json({error: "Not enough data, sorry try again"})
+    // res.json(playlists[playlists.length -1]);
+    res.redirect('/home');
+    } else {res.json({error: "Not enough data, sorry try again"})}
 });
 
 ////////new route 
