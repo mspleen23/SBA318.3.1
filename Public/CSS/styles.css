@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../Pictures/music .jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+p {
+  text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+    background-color: #E53F71;
+    color: sandybrown;
+  }
+
+ul {
+    background-color: whitesmoke;
+  }
+  
+  form {
+    background-color: #E53F71;
+    padding: 15px;
+    padding-right: 30px;
+    border: 1px solid sandybrown;
+    width: 300px;
+    margin-top: 20px;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+  }
+  

@@ -35,6 +35,8 @@ ${time.toLocaleTimeString()}: Received a ${req.method} request to ${req.url}.`
   next();
 });
 
+///////EJS Public Files///////
+app.use(express.static("public"));
 
 ////Here are the Routes/////
 app.use("/api/playlist", playlist);
