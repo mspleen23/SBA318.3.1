@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music Room</title>
+    <link rel="stylesheet" href="Public/styles.css"> 
+</head>
+<body>
+    <h1>🎵 Welcome to the Music Room 🎶</h1>
+ 
+    <h2>Available Playlists</h2>
+    <ul>
+        <% playlists.forEach(p => { %>
+            <li><strong><%= p.playlistTitle %></strong> - Genre: <%= p.genre %></li>
+        <% }) %>
+    </ul>
+</body>
+</html>
